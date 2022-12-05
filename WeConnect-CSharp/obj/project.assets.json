@@ -1,0 +1,67 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net7.0": []
+  },
+  "packageFolders": {
+    "/Users/mike/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/mike/Documents/Development/WeConnect-CSharp/WeConnect-CSharp/WeConnect-CSharp.csproj",
+      "projectName": "WeConnect-CSharp",
+      "projectPath": "/Users/mike/Documents/Development/WeConnect-CSharp/WeConnect-CSharp/WeConnect-CSharp.csproj",
+      "packagesPath": "/Users/mike/.nuget/packages/",
+      "outputPath": "/Users/mike/Documents/Development/WeConnect-CSharp/WeConnect-CSharp/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/mike/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://9292rig.pkgs.visualstudio.com/_packaging/PackageFeed9292/nuget/v3/index.json": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>WeConnect_CSharp.Auth</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Cupra\" />
+    <None Remove="Volkswagen\" />
+    <None Remove="Utilities\" />
+    <None Remove="Models\" />
+    <None Remove="Ultralight" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Cupra\" />
+    <Folder Include="Volkswagen\" />
+    <Folder Include="Utilities\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+</Project>
